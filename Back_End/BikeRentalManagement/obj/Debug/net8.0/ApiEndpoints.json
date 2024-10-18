@@ -158,6 +158,42 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "RentalController",
+    "Method": "ApproveRentalRequest",
+    "RelativePath": "api/Rental/approve/{requestId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RentalController",
+    "Method": "GetOverdueRentals",
+    "RelativePath": "api/Rental/overdue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BikeRentalManagement.Models.Rental, BikeRentalManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "RentalRequestController",
     "Method": "AddRentalRequest",
     "RelativePath": "api/RentalRequest",

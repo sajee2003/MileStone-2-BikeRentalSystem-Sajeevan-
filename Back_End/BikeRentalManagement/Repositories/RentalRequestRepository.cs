@@ -1,11 +1,13 @@
 ﻿using BikeRentalManagement.Models;
 using System.Collections.Generic;
 using Microsoft.Data.SqlClient;
+using Azure.Core;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 
 namespace BikeRentalManagement.Repositories
 {
-   
+
     public class RentalRequestRepository
     {
         private readonly string _connectionString;
@@ -33,33 +35,7 @@ namespace BikeRentalManagement.Repositories
             }
         }
 
-        public RentalRequest GetRentalRequestById(int rentalRequestId)
-        {
-            using (SqlConnection connection = new SqlConnection(_connectionString))
-            {
-                string query = "SELECT * FROM RentalRequests WHERE RentalRequestId = @RentalRequestId";
-                SqlCommand command = new SqlCommand(query, connection);
-                command.Parameters.AddWithValue("@RentalRequestId", rentalRequestId);
 
-                connection.Open();
-                SqlDataReader reader = command.ExecuteReader();
-
-                if (reader.Read())
-                {
-                    return new RentalRequest
-                    {
-                        RentalRequestId = (int)reader["RentalRequestId"],
-                        MotorbikeId = (int)reader["MotorbikeId"],
-                        UserId = (int)reader["UserId"],
-                        RequestDate = (DateTime)reader["RequestDate"],
-                        Status = reader["Status"].ToString(),
-                        ApprovalDate = (DateTime)(reader["ApprovalDate"] == DBNull.Value ? null : (DateTime?)reader["ApprovalDate"])
-                    };
-                }
-
-                return null;
-            }
-        }
 
         public bool UpdateRentalRequestStatus(int rentalRequestId, string status, DateTime? approvalDate = null)
         {
@@ -80,31 +56,77 @@ namespace BikeRentalManagement.Repositories
 
         public List<RentalRequest> GetAllRentalRequests()
         {
-            List<RentalRequest> requests = new List<RentalRequest>();
-
-            using (SqlConnection connection = new SqlConnection(_connectionString))
+            try
             {
-                string query = "SELECT * FROM RentalRequests";
-                SqlCommand command = new SqlCommand(query, connection);
+                List<RentalRequest> requests = new List<RentalRequest>();
 
-                connection.Open();
-                SqlDataReader reader = command.ExecuteReader();
-
-                while (reader.Read())
+                using (SqlConnection connection = new SqlConnection(_connectionString))
                 {
-                    requests.Add(new RentalRequest
+                    string query = "SELECT * FROM RentalRequests";
+                    SqlCommand command = new SqlCommand(query, connection);
+
+                    connection.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    while (reader.Read())
                     {
-                        RentalRequestId = (int)reader["RentalRequestId"],
+                        requests.Add(new RentalRequest
+                        {
+                            RentalRequestId = (int)reader["RentalRequestId"],
+                            MotorbikeId = (int)reader["MotorbikeId"],
+                            UserId = (int)reader["UserId"],
+                            RequestDate = (DateTime)reader["RequestDate"],
+                            Status = reader["Status"].ToString(),
+                            ApprovalDate = (DateTime)(reader["ApprovalDate"] == DBNull.Value ? null : (DateTime?)reader["ApprovalDate"])
+                        });
+                    }
+                }
+
+                return requests;
+            }catch(Exception ex)
+            {
+                return null;
+            }
+
+
+        }
+
+        public async Task<int> ApproveRentalRequest(int requestId, DateTime approvalDate)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                var command = new SqlCommand(
+                    "UPDATE RentalRequests SET Status = 'approved', ApprovalDate = @ApprovalDate WHERE Id = @Id",
+                    connection);
+                command.Parameters.AddWithValue("@ApprovalDate", approvalDate);
+                command.Parameters.AddWithValue("@Id", requestId);
+                await connection.OpenAsync();
+                return await command.ExecuteNonQueryAsync();
+            }
+        }
+
+        public async Task<RentalRequest> GetRentalRequestById(int id)
+        {
+            RentalRequest rentalRequest = null;
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                var command = new SqlCommand("SELECT * FROM RentalRequests WHERE Id = @Id", connection);
+                command.Parameters.AddWithValue("@Id", id);
+                await connection.OpenAsync();
+                var reader = await command.ExecuteReaderAsync();
+                if (await reader.ReadAsync())
+                {
+                    rentalRequest = new RentalRequest
+                    {
+                        RentalRequestId = (int)reader["Id"],
                         MotorbikeId = (int)reader["MotorbikeId"],
                         UserId = (int)reader["UserId"],
                         RequestDate = (DateTime)reader["RequestDate"],
-                        Status = reader["Status"].ToString(),
-                        ApprovalDate = (DateTime)(reader["ApprovalDate"] == DBNull.Value ? null : (DateTime?)reader["ApprovalDate"])
-                    });
+                        Status = reader["Status"].ToString()
+                    };
                 }
             }
-
-            return requests;
+            return rentalRequest;
         }
     }
 

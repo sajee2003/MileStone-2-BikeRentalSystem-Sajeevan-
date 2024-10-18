@@ -2544,11 +2544,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UT01272\\Downloads\\Test\\Test\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj",
+      "projectUniqueName": "C:\\Users\\UT01272\\Downloads\\Test-again\\Test\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj",
       "projectName": "BikeRentalManagement",
-      "projectPath": "C:\\Users\\UT01272\\Downloads\\Test\\Test\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj",
+      "projectPath": "C:\\Users\\UT01272\\Downloads\\Test-again\\Test\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj",
       "packagesPath": "C:\\Users\\UT01272\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UT01272\\Downloads\\Test\\Test\\Back_End\\BikeRentalManagement\\obj\\",
+      "outputPath": "C:\\Users\\UT01272\\Downloads\\Test-again\\Test\\Back_End\\BikeRentalManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\UT01272\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -32,6 +32,10 @@ namespace BikeRentalManagement.Services
         {
             return _rentalRepository.GetAllRentals();
         }
+        public async Task<List<Rental>> GetOverdueRentals()
+        {
+            return await _rentalRepository.GetOverdueRentals();
+        }
     }
 
 }

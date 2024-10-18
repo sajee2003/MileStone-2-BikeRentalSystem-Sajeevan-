@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\repositories\\motorbikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:repositories\\motorbikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\repositories\\rentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:repositories\\rentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\services\\rentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:services\\rentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\controllers\\rentalrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:controllers\\rentalrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\repositories\\motorbikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:repositories\\motorbikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\models\\rentalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:models\\rentalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\services\\motorbikeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:controllers\\orderhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\controllers\\rentalrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:controllers\\rentalrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\models\\updatestatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:models\\updatestatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\controllers\\motorbikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,40 +79,12 @@
       "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\services\\orderhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:services\\orderhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\services\\rentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:services\\rentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\repositories\\rentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:repositories\\rentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\repositories\\orderhistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:repositories\\orderhistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\models\\rentalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:models\\rentalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|solutionrelative:services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB3E2DD9-AA34-4AD0-9EB6-801F1AC4D3DC}|BikeRentalManagement.csproj|c:\\users\\sanke\\onedrive\\desktop\\test\\back_end\\bikerentalmanagement\\models\\motorbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,240 +106,139 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RentalRequestController.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\RentalRequestController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RentalRequestController.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\RentalRequestController.cs",
-              "RelativeToolTip": "Controllers\\RentalRequestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:49:53.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MotorbikeService.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\MotorbikeService.cs",
-              "RelativeDocumentMoniker": "Services\\MotorbikeService.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\MotorbikeService.cs",
-              "RelativeToolTip": "Services\\MotorbikeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:29:06.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA5wAcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwC0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T23:54:41.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-16T23:52:22.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MotorbikeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\MotorbikeRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\MotorbikeRepository.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\MotorbikeRepository.cs",
-              "RelativeToolTip": "Repositories\\MotorbikeRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAswBoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T17:03:54.219Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "OrderHistoryController.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\OrderHistoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderHistoryController.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\OrderHistoryController.cs",
-              "RelativeToolTip": "Controllers\\OrderHistoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "RentalRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\RentalRequestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RentalRequestController.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\RentalRequestController.cs",
+              "RelativeToolTip": "Controllers\\RentalRequestController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwDIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:51:38.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateStatusRequest.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\UpdateStatusRequest.cs",
-              "RelativeDocumentMoniker": "Models\\UpdateStatusRequest.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\UpdateStatusRequest.cs",
-              "RelativeToolTip": "Models\\UpdateStatusRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:50:22.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RentalController.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\RentalController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RentalController.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\RentalController.cs",
-              "RelativeToolTip": "Controllers\\RentalController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:49:17.244Z"
+              "WhenOpened": "2024-10-16T23:49:53.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Rental.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\Rental.cs",
-              "RelativeDocumentMoniker": "Models\\Rental.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\Rental.cs",
-              "RelativeToolTip": "Models\\Rental.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Title": "RentalService.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\RentalService.cs",
+              "RelativeDocumentMoniker": "Services\\RentalService.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\RentalService.cs",
+              "RelativeToolTip": "Services\\RentalService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T16:50:38.609Z"
+              "WhenOpened": "2024-10-16T23:30:45.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MotorbikeController.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\MotorbikeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MotorbikeController.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\MotorbikeController.cs",
-              "RelativeToolTip": "Controllers\\MotorbikeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:48:37.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "Models\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:44:39.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwBkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:38:01.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderHistoryService.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\OrderHistoryService.cs",
-              "RelativeDocumentMoniker": "Services\\OrderHistoryService.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\OrderHistoryService.cs",
-              "RelativeToolTip": "Services\\OrderHistoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:37:11.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "RentalRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\RentalRequestRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\RentalRequestRepository.cs",
               "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\RentalRequestRepository.cs",
               "RelativeToolTip": "Repositories\\RentalRequestRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAuwFgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:32:47.415Z"
+              "WhenOpened": "2024-10-16T23:32:47.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Services\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\UserRepository.cs",
-              "RelativeToolTip": "Services\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAApAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RentalController.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\RentalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RentalController.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\RentalController.cs",
+              "RelativeToolTip": "Controllers\\RentalController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAA9wEsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:28:37.799Z"
+              "WhenOpened": "2024-10-16T23:49:17.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OrderHistoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\OrderHistoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\OrderHistoryRepository.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\OrderHistoryRepository.cs",
-              "RelativeToolTip": "Repositories\\OrderHistoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T17:05:47.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "RentalRepository.cs",
               "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\RentalRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\RentalRepository.cs",
               "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\RentalRepository.cs",
               "RelativeToolTip": "Repositories\\RentalRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAswBMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T17:05:00.164Z"
+              "WhenOpened": "2024-10-16T17:05:00.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MotorbikeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\MotorbikeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MotorbikeRepository.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\MotorbikeRepository.cs",
+              "RelativeToolTip": "Repositories\\MotorbikeRepository.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAwwFoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T17:01:05.001Z"
+              "WhenOpened": "2024-10-16T17:03:54.219Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "RentalRequestService.cs",
               "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\RentalRequestService.cs",
               "RelativeDocumentMoniker": "Services\\RentalRequestService.cs",
               "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\RentalRequestService.cs",
               "RelativeToolTip": "Services\\RentalRequestService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wAgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvzIAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:31:29.807Z"
+              "WhenOpened": "2024-10-16T23:31:29.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:28:37.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:01:05.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "RentalRequest.cs",
               "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\RentalRequest.cs",
               "RelativeDocumentMoniker": "Models\\RentalRequest.cs",
@@ -351,15 +250,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RentalService.cs",
-              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\RentalService.cs",
-              "RelativeDocumentMoniker": "Services\\RentalService.cs",
-              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\RentalService.cs",
-              "RelativeToolTip": "Services\\RentalService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "MotorbikeService.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\MotorbikeService.cs",
+              "RelativeDocumentMoniker": "Services\\MotorbikeService.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\MotorbikeService.cs",
+              "RelativeToolTip": "Services\\MotorbikeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:30:45.511Z"
+              "WhenOpened": "2024-10-16T23:29:06.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T23:52:22.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateStatusRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\UpdateStatusRequest.cs",
+              "RelativeDocumentMoniker": "Models\\UpdateStatusRequest.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\UpdateStatusRequest.cs",
+              "RelativeToolTip": "Models\\UpdateStatusRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:50:22.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\OrderHistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderHistoryController.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\OrderHistoryController.cs",
+              "RelativeToolTip": "Controllers\\OrderHistoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:51:38.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\Rental.cs",
+              "RelativeDocumentMoniker": "Models\\Rental.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\Rental.cs",
+              "RelativeToolTip": "Models\\Rental.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:50:38.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MotorbikeController.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\MotorbikeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MotorbikeController.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\MotorbikeController.cs",
+              "RelativeToolTip": "Controllers\\MotorbikeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:48:37.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:44:39.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:38:01.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderHistoryService.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\OrderHistoryService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderHistoryService.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Services\\OrderHistoryService.cs",
+              "RelativeToolTip": "Services\\OrderHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:37:11.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderHistoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\OrderHistoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrderHistoryRepository.cs",
+              "ToolTip": "C:\\Users\\sanke\\OneDrive\\Desktop\\Test\\Back_End\\BikeRentalManagement\\Repositories\\OrderHistoryRepository.cs",
+              "RelativeToolTip": "Repositories\\OrderHistoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:05:47.989Z"
             },
             {
               "$type": "Document",

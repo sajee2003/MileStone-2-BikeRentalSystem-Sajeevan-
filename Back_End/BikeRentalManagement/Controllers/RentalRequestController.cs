@@ -18,13 +18,21 @@ public class RentalRequestController : ControllerBase
     [HttpPost]
     public IActionResult AddRentalRequest([FromBody] RentalRequest request)
     {
-        if (_requestService.AddRentalRequest(request))
+        if (request == null)
         {
-            return Ok("Rental request submitted successfully.");
+            return BadRequest("Invalid rental request.");
         }
 
-        return BadRequest("Failed to submit rental request.");
+        bool isAdded = _requestService.AddRentalRequest(request);
+
+        if (isAdded)
+        {
+            return CreatedAtAction(nameof(AddRentalRequest), new { id = request.UserId }, request);
+        }
+
+        return StatusCode(500, "Error while adding rental request.");
     }
+
 
     [HttpPut("{requestId}/status")]
     public IActionResult UpdateRentalRequestStatus(int requestId, [FromBody] UpdateStatusRequest statusRequest)

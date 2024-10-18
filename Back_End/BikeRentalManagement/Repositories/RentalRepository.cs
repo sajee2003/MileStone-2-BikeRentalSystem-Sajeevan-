@@ -96,5 +96,29 @@ namespace BikeRentalManagement.Repositories
 
             return rentals;
         }
+
+        public async Task<List<Rental>> GetOverdueRentals()
+        {
+            var overdueRentals = new List<Rental>();
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                var command = new SqlCommand(
+                    "SELECT * FROM Rentals WHERE ReturnDate IS NULL AND DATEDIFF(MINUTE, RentDate, GETDATE()) > 1",
+                    connection);
+                await connection.OpenAsync();
+                var reader = await command.ExecuteReaderAsync();
+                while (await reader.ReadAsync())
+                {
+                    overdueRentals.Add(new Rental
+                    {
+                        RentalId = (int)reader["Id"],
+                        MotorbikeId = (int)reader["MotorbikeId"],
+                        UserId = (int)reader["UserId"],
+                        RentDate = (DateTime)reader["RentDate"]
+                    });
+                }
+            }
+            return overdueRentals;
+        }
     }
 }

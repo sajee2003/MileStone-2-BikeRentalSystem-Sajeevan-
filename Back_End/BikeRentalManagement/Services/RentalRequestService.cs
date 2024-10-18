@@ -7,20 +7,35 @@ namespace BikeRentalManagement.Services
     public class RentalRequestService
     {
         private readonly RentalRequestRepository _requestRepository;
-
-        public RentalRequestService(RentalRequestRepository requestRepository)
+        private readonly RentalRepository _rentalRepository;
+        public RentalRequestService(RentalRequestRepository rentalRequestRepository, RentalRepository rentalRepository)
         {
-            _requestRepository = requestRepository;
+            _requestRepository = rentalRequestRepository;
+            _rentalRepository = rentalRepository;
         }
+
 
         public bool AddRentalRequest(RentalRequest request)
         {
             return _requestRepository.AddRentalRequest(request);
         }
 
-        public RentalRequest GetRentalRequestById(int requestId)
+        
+        public async Task<bool> ApproveRentalRequest(int requestId)
         {
-            return _requestRepository.GetRentalRequestById(requestId);
+            var rentalRequest = await _requestRepository.GetRentalRequestById(requestId);
+            if (rentalRequest == null || rentalRequest.Status != "pending") return false;
+
+  
+            await _requestRepository.ApproveRentalRequest(requestId, DateTime.UtcNow);
+            var rental = new Rental
+            {
+                MotorbikeId = rentalRequest.MotorbikeId,
+                UserId = rentalRequest.UserId,
+                RentDate = DateTime.UtcNow
+            };
+             _rentalRepository.AddRental(rental);
+            return true;
         }
 
         public bool UpdateRentalRequestStatus(int requestId, string status, DateTime? approvalDate = null)
@@ -32,6 +47,12 @@ namespace BikeRentalManagement.Services
         {
             return _requestRepository.GetAllRentalRequests();
         }
+
+        public async Task<RentalRequest> GetRentalRequestById(int id)
+        {
+            return await _requestRepository.GetRentalRequestById(id);
+        }
+
     }
 
 }

@@ -16,7 +16,7 @@ namespace BikeRentalManagement
             builder.Services.AddSwaggerGen();
 
             // Enable CORS
-            builder.Services.AddCors(options =>
+                builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAllOrigins",
                     policy =>
@@ -43,7 +43,7 @@ namespace BikeRentalManagement
             builder.Services.AddScoped<RentalService>();
             builder.Services.AddScoped<RentalRequestService>();
             builder.Services.AddScoped<OrderHistoryService>();
-
+            
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -72,7 +72,7 @@ namespace BikeRentalManagement
             app.UseAuthorization();
 
             app.MapControllers();
-
+            
             app.Run();
         }
     }
