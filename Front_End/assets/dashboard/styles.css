@@ -1,0 +1,114 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-link{
+  color: var(--smokey-black);
+}
+
+.form-control:focus{
+  border-color: var(--smokey-black);
+  
+  border-width: 1px;
+  box-shadow: none;
+}
+
+h1, h2 {
+  color: var(--smokey-black);
+  margin-bottom: 20px;
+}
+
+.table {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.table th {
+  background-color: #0D6EFD;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #0D6EFD;
+  border-color: #0D6EFD;
+ 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* New styles for customer rentals */
+#customerRentalsSection {
+  margin-top: 40px;
+}
+
+.table-success {
+  background-color: #d4edda;
+}
+
+.table-danger {
+  background-color: #f8d7da;
+}
+/* Add styles for the update modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Add styles for the rental requests table */
+#rentalRequestsTableBody tr {
+  background-color: #f8f9fa;
+}
+
+#rentalRequestsTableBody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+  
+  .table {
+      font-size: 0.9em;
+  }
+}
+

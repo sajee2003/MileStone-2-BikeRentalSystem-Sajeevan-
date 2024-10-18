@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+/* start: Global */
+:root {
+    --font-onest: "Onest", sans-serif;
+    --text-xs: 12px;
+    --text-sm: 14px;
+    --text-base: 16px;
+    --text-lg: 18px;
+    --text-xl: 20px;
+    --text-2xl: 24px;
+    --text-3xl: 30px;
+    --text-4xl: 36px;
+    --text-5xl: 48px;
+    --rounded-sm: 2px;
+    --rounded-md: 4px;
+    --rounded-lg: 8px;
+    --rounded-xl: 16px;
+    --rounded-full: 999px;
+    --white: #fff;
+    --black: #000;
+    --primary: #615efc;
+    --gray: #eee;
+    --duration-150: 150ms;
+    --shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font-onest);
+    color: var(--black);
+}
+button,
+input {
+    font-family: inherit;
+}
+.tab-container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+/* start: Global */
+
+/* start: Tab */
+.tab-section {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding: 48px 0;
+}
+.tab-pane {
+    display: flex;
+    overflow-x: auto;
+}
+.tab-pane-item {
+    height: 72px;
+    background-color: var(--primary);
+    padding: 0 24px;
+    border: none;
+    border-radius: var(--rounded-xl) var(--rounded-xl) 0 0;
+    color: var(--white);
+    text-align: left;
+    width: 140px;
+    flex-shrink: 0;
+    margin-right: 16px;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    outline: none;
+    transition-property: color;
+    transition-duration: var(--duration-150);
+    transition-delay: var(--delay);
+}
+.tab-pane-item.active {
+    color: var(--primary);
+}
+.tab-pane-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        var(--primary) calc(100% / 3),
+        var(--white) calc(100% / 3),
+        var(--white) calc((100% / 3) * 2),
+        var(--primary) calc((100% / 3) * 2)
+    );
+    z-index: -1;
+    transition-property: left;
+    transition-duration: var(--duration-150);
+    transition-timing-function: linear;
+    transition-delay: var(--delay);
+    pointer-events: none;
+}
+.tab-pane-item.slow::after {
+    transition-duration: calc(var(--duration-150) * 2);
+}
+.tab-pane-item.active::after {
+    left: -100%;
+}
+.tab-pane-item.after::after {
+    left: -200%;
+}
+.tab-pane-item.before::after {
+    left: 0;
+}
+.tab-pane-item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -4px;
+    width: 4px;
+    height: 32px;
+    transform: translateY(-50%);
+    background-color: var(--primary);
+    border-radius: var(--rounded-full);
+    transition-property: left;
+    transition-duration: var(--duration-150);
+    transition-delay: calc(var(--delay) + var(--duration-150));
+}
+.tab-pane-item.active::before {
+    left: 0;
+}
+.tab-pane-item:last-child {
+    margin-right: 0;
+}
+.tab-pane-item-title {
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    line-height: 1.2;
+    display: block;
+    margin-bottom: 4px;
+}
+.tab-page {
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    position: relative;
+    padding: 24px;
+    border-radius: 0 0 var(--rounded-xl) var(--rounded-xl);
+    display: none;
+}
+.tab-page.active {
+    display: block;
+}
+.tab-page-title {
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+.tab-page-text {
+    font-size: var(--text-base);
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.tab-page-image {
+    display: block;
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    background-color: #f9f9f9;
+    border: 1px solid var(--gray);
+    border-radius: var(--rounded-lg);
+    margin-bottom: 24px;
+}
+/* end: Tab */

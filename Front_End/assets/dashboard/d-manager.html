@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="d-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Manager Dashboard</title>
+</head>
+
+<body>
+    <!-- start: Tab -->
+
+    <section class="tab-section">
+        <div class="container">
+            <h1 class="text-center">Manager Dashboard</h1>
+            <div class="top-div">
+                <div id="userInfo"></div>
+                <button id="logoutBtn" class="btn btn-danger">Logout</button>
+            </div>
+
+        </div>
+        <div class="tab-container">
+            <div class="tab-pane">
+                <button type="button" data-tab-pane="active" class="tab-pane-item active">
+
+                    <span class="tab-pane-item-subtitle">Add New Motorbike</span>
+                </button>
+                <button type="button" data-tab-pane="in-review" class="tab-pane-item after">
+
+                    <span class="tab-pane-item-subtitle">Motorbike Inventory</span>
+                </button>
+                <button type="button" data-tab-pane="pending" class="tab-pane-item after">
+
+                    <span class="tab-pane-item-subtitle">Customer Rentals</span>
+                </button>
+                <button type="button" data-tab-pane="paused" class="tab-pane-item after">
+
+                    <span class="tab-pane-item-subtitle">Order History</span>
+                </button>
+            </div>
+            <div class="tab-page active" data-tab-page="active">
+                <div class="container">
+                    <div class="col-md-6">
+                        <h2>Add New Motorbike</h2>
+                        <form id="addMotorbikeForm">
+                            <div class="form-group">
+                                <label for="regNumber">Registration Number:</label>
+                                <input type="text" id="regNumber" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="brand">Brand:</label>
+                                <input type="text" id="brand" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="model">Model:</label>
+                                <input type="text" id="model" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="category">Category:</label>
+                                <select id="category" class="form-control" required></select>
+                            </div>
+                            <div class="form-group">
+                                <label for="bikeImage">Bike Image:</label>
+                                <input type="file" id="bikeImage" class="form-control-file" accept="image/*">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add Motorbike</button>
+                        </form>     
+                    </div>
+                    </div>    
+                </div>
+                </div>
+            </div>
+            <div class="tab-page" data-tab-page="in-review">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h2>Motorbike Inventory</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Reg Number</th>
+                                    <th>Brand</th>
+                                    <th>Model</th>
+                                    <th>Category</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="motorbikeTableBody"></tbody>
+                        </table>
+                    </div>
+                    <div id="updateMotorbikeModal" class="modal">
+                        <div class="modal-content">
+                            <h2>Update Motorbike</h2>
+                            <form id="updateMotorbikeForm">
+                                <div class="form-group">
+                                    <label for="updateRegNumber">Registration Number:</label>
+                                    <input type="text" id="updateRegNumber" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="updateBrand">Brand:</label>
+                                    <input type="text" id="updateBrand" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="updateModel">Model:</label>
+                                    <input type="text" id="updateModel" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="updateCategory">Category:</label>
+                                    <select id="updateCategory" required>
+                                       
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Update Motorbike</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-page" data-tab-page="pending">
+            <div class="container">
+                <div id="customerRentalsSection " class="mt-4 col-md-12">
+                    <h2>Customer Rentals</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Customer</th>
+                                <th>Reg Number</th>
+                                <th>Brand</th>
+                                <th>Model</th>
+                                <th>Rent Date</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="customerRentalsTableBody"></tbody>
+                    </table>
+                </div>
+                <div class="col-md-12 mt-4">
+                    <h2>Rental Requests</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Customer</th>
+                                <th>Reg Number</th>
+                                <th>Brand</th>
+                                <th>Model</th>
+                                <th>Request Date</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="rentalRequestsTableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="tab-page" data-tab-page="paused">
+            <div class="container">
+                <div class="col-md-12 mt-4">
+                    <h2>Order History</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Reg. Number</th>
+                                <th>Brand</th>
+                                <th>Model</th>
+                                <th>Rent Date</th>
+                                <th>Return Date</th>
+                            </tr>
+                        </thead>
+                        <tbody id="orderHistoryTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end: Tab -->
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
