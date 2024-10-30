@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UT01272\\Downloads\\Test-again\\Test\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj": {}
+    "C:\\Users\\kanes\\Desktop\\New folder\\MileStone-2-BikeRentalSystem-Sajeevan-\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UT01272\\Downloads\\Test-again\\Test\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj": {
+    "C:\\Users\\kanes\\Desktop\\New folder\\MileStone-2-BikeRentalSystem-Sajeevan-\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UT01272\\Downloads\\Test-again\\Test\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj",
+        "projectUniqueName": "C:\\Users\\kanes\\Desktop\\New folder\\MileStone-2-BikeRentalSystem-Sajeevan-\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj",
         "projectName": "BikeRentalManagement",
-        "projectPath": "C:\\Users\\UT01272\\Downloads\\Test-again\\Test\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj",
-        "packagesPath": "C:\\Users\\UT01272\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UT01272\\Downloads\\Test-again\\Test\\Back_End\\BikeRentalManagement\\obj\\",
+        "projectPath": "C:\\Users\\kanes\\Desktop\\New folder\\MileStone-2-BikeRentalSystem-Sajeevan-\\Back_End\\BikeRentalManagement\\BikeRentalManagement.csproj",
+        "packagesPath": "C:\\Users\\kanes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kanes\\Desktop\\New folder\\MileStone-2-BikeRentalSystem-Sajeevan-\\Back_End\\BikeRentalManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UT01272\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

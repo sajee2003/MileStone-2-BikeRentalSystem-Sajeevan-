@@ -1,4 +1,4 @@
-const BASE_URL = 'https://localhost:7091/api'; 
+const BASE_URL = 'https://localhost:7091/api';
 
 
 let users = [];
@@ -25,9 +25,19 @@ async function loadData() {
 
         console.log('Data loaded successfully:', { users, motorbikes, rentals });
 
-        
-        updateMotorbikeTable();
-        updateAvailableMotorbikes();
+
+        const currentPath = window.location.pathname;
+
+        if (currentPath.includes("d-customer.html")) {
+            updateAvailableMotorbikes();
+        }
+        else {
+            updateMotorbikeTable()
+
+        }
+
+
+
         updateRentalRequests();
         updateUserInfo();
         updateOrderHistory();
@@ -41,7 +51,7 @@ async function loadData() {
 
 
 async function login(username, password, role) {
-    const response = await fetch(`${BASE_URL}/User/login`,{
+    const response = await fetch(`${BASE_URL}/User/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password, role })
@@ -62,7 +72,7 @@ async function login(username, password, role) {
 function populateCategoryDropdown() {
     const categorySelect = document.getElementById('category');
     if (categorySelect) {
-        categorySelect.innerHTML = ''; 
+        categorySelect.innerHTML = '';
 
         categories.forEach(category => {
             const option = document.createElement('option');
@@ -130,7 +140,7 @@ async function removeMotorbike(index) {
 
     if (response.ok) {
         alert('Motorbike removed successfully.');
-        await loadData(); 
+        await loadData();
     } else {
         alert('Failed to remove motorbike.');
     }
@@ -159,7 +169,7 @@ async function rentMotorbike(regNumber) {
 
     if (response.ok) {
         alert('Rental request submitted.');
-        await loadData(); 
+        await loadData();
     } else {
         alert('Failed to submit rental request.');
     }
@@ -176,7 +186,7 @@ async function approveRental(index) {
 
     if (response.ok) {
         alert('Rental approved.');
-        await loadData(); 
+        await loadData();
     } else {
         alert('Failed to approve rental.');
     }
@@ -184,10 +194,12 @@ async function approveRental(index) {
 
 function updateMotorbikeTable() {
     const motorbikeTableBody = document.getElementById('motorbikeTableBody');
+
+    console.log(motorbikeTableBody)
     motorbikeTableBody.innerHTML = '';
     motorbikes.forEach((motorbike, index) => {
         const row = document.createElement('tr');
-        row.innerHTML =`
+        row.innerHTML = `
             <td>${motorbike.regNumber}</td>
             <td>${motorbike.brand}</td>
             <td>${motorbike.model}</td>
@@ -196,21 +208,23 @@ function updateMotorbikeTable() {
                 <button class="btn btn-primary btn-sm" onclick="updateMotorbike(${index})">Update</button>
                 <button class="btn btn-danger btn-sm" onclick="removeMotorbike(${index})">Remove</button>
             </td>`
-        ;
+            ;
         motorbikeTableBody.appendChild(row);
     });
 }
 
 function updateAvailableMotorbikes() {
+    console.log("hi")
     const availableMotorbikeTableBody = document.getElementById('availableMotorbikeTableBody');
+    console.log(availableMotorbikeTableBody)
     availableMotorbikeTableBody.innerHTML = '';
 
     motorbikes.forEach((motorbike) => {
         const row = document.createElement('tr');
 
-      
-        const imageCell = motorbike.imageData 
-            ? `<img src="${motorbike.imageData}" style="width: 100px;">` 
+
+        const imageCell = motorbike.imageData
+            ? `<img src="${motorbike.imageData}" style="width: 100px;">`
             : 'No image';
 
         row.innerHTML = `
@@ -226,7 +240,7 @@ function updateAvailableMotorbikes() {
             </td>
         `;
 
-        availableMotorbikeTableBody.appendChild(row); 
+        availableMotorbikeTableBody.appendChild(row);
     });
 }
 
@@ -234,13 +248,13 @@ function updateAvailableMotorbikes() {
 
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        
+
         await loadData();
 
-        
+
         populateCategoryDropdown();
 
-        
+
         updateUserInfo();
         updateMotorbikeTable();
         updateAvailableMotorbikes();
@@ -252,7 +266,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Initialization failed:', error.message);
     }
 
-    
+
     const loginForm = document.getElementById('loginForm');
     const registerForm = document.getElementById('registerForm');
     const addMotorbikeForm = document.getElementById('addMotorbikeForm');
